@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo 'Start minikube'
-minikube --memory 4096 --cpus 2 start --vm-driver=virtualbox
+minikube --memory 2600 --cpus 2 start --vm-driver=docker
 
 echo 'Create jenkins namespace'
 kubectl create -f jenkins/jenkins-namespace.yaml

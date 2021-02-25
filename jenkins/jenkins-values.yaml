@@ -20,7 +20,7 @@ master:
       memory: "256Mi"
     limits:
       cpu: "2000m"
-      memory: "4096Mi"
+      memory: "2560Mi"
   usePodSecurityContext: true
   servicePort: 8080
   targetPort: 8080
